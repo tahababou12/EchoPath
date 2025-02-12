@@ -157,10 +157,9 @@ pip install opencv_python*.whl
 
 1. **Run the Application:**
    ```bash
-   python client-ollama2.py
+   python main.py
    ```
-   (Alternatively, run `main.py` if that is your main file.)
-
+   
 2. **Operation:**
    - The application opens a window with a live video feed.
    - It continuously processes frames, detects objects with the fine-tuned YOLO11n model, and queries the Llama 3.2 model when changes occur.
